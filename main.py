@@ -84,8 +84,8 @@ def menu():
     music.stop()
     preview.play(-1)
     screen.blit(background, background_rect)
-    draw_text("НА ГОРОД НАПАЛО 500 АБОЛТУСОВ ", 40, 200)
-    draw_text("УБЕЙТЕ ИХ", 40, 300)
+    draw_text("НА ГОРОД НАПАЛО ТОЛПА ЗОМБИ", 40, 200)
+    draw_text("УБЕЙТЕ 500 ЗОМБИ ЧТОБЫ СПАСТИ ГОРОД", 40, 300)
     draw_text("НАЖМИТЕ ЛЮБУЮ КНОПКУ ЧТОБЫ НАЧАТЬ", 40, 490)
     pygame.display.flip()
     wait = True
